@@ -6,7 +6,7 @@ using Microsoft.SemanticKernel.Connectors.Ollama;
 using OllamaSharp;
 
 var modelId = "phi4-mini";
-var uri = "http://localhost:11434/";
+var uri = "http://192.168.1.251:11434/";
 
 
 // create client
