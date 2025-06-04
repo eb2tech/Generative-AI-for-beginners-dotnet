@@ -22,13 +22,13 @@ var question = "What is Bruno's favourite super hero?";
 // intro
 Console.WriteLine($"Question: {question}");
 
-var modelId = "llama3.2";
+var modelId = "llama4";
 
 // Create a chat completion service
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion(
     modelId: modelId,
-    endpoint: new Uri("http://localhost:11434/v1"),
+    endpoint: new Uri("http://192.168.1.25:11434"),
     apiKey: "apikey");
 builder.AddLocalTextEmbeddingGeneration();
 Kernel kernel = builder.Build();
