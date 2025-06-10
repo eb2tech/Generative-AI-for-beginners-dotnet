@@ -12,7 +12,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Fork)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Star)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/stargazers/)
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)
+
+[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/ai-discord/dotnet)
+[![Azure AI Foundry GitHub Discussions](https://img.shields.io/badge/Discussions-Azure%20AI%20Foundry-blueviolet?logo=github&style=for-the-badge)](https://aka.ms/ai-discussions/dotnet)
 
 ![生成式 AI 初学者 .NET 标志](../../translated_images/main-logo.5ac974278bc20b3520e631aaa6bf8799f2d219c5aec555da85555725546f25f8.zh.jpg)
 
@@ -25,6 +27,27 @@
 别忘了 [为此项目加星标 (🌟)](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)，方便日后找到它。
 
 ➡️通过 [Fork 此项目](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/fork) 获取自己的副本，并在自己的仓库中轻松找到它。
+
+## ✨ 最新更新！
+
+我们不断改进本课程，加入最新的 AI 工具、模型和实践示例：
+
+- **新增：Azure OpenAI Sora 视频生成演示！**
+  - 第3课现在提供实践演示，展示如何使用新的 [Sora 视频生成模型](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation) 在 Azure OpenAI 中从文本提示生成视频。
+  - 该示例演示如何：
+    - 使用创意提示提交视频生成任务。
+    - 轮询任务状态并自动下载生成的视频文件。
+    - 将生成的视频保存到桌面以便轻松查看。
+  - 查看官方文档：[Azure OpenAI Sora 视频生成](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)
+  - 在这里找到示例：[第3课：核心生成式 AI 技术 /src/VideoGeneration-AzureSora-01/Program.cs](../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
+
+- **新增：Azure OpenAI 图像生成模型 (`gpt-image-1`)**：第3课现在提供使用新的 Azure OpenAI 图像生成模型 `gpt-image-1` 的代码示例。学习如何使用最新的 Azure OpenAI 功能从 .NET 生成图像。
+  - 查看官方文档：[如何使用 Azure OpenAI 图像生成模型](https://learn.microsoft.com/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1) 和 [openai-dotnet 图像生成指南](https://github.com/openai/openai-dotnet?tab=readme-ov-file#how-to-generate-images) 了解更多详情。
+  - 在这里找到示例：[第3课：核心生成式 AI 技术 .. /src/ImageGeneration-01.csproj](../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj)。
+
+- **新场景：eShopLite 中的并发代理编排**：[eShopLite 仓库](https://github.com/Azure-Samples/eShopLite/tree/main/scenarios/07-AgentsConcurrent) 现在提供一个场景，演示如何使用 Semantic Kernel 进行并发代理编排。此场景展示了多个代理如何并行工作来分析用户查询并为未来分析提供有价值的见解。
+
+[在我们的最新更新部分查看所有之前的更新](./10-WhatsNew/readme.md)
 
 ## 🚀 课程简介
 

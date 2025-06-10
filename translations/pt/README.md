@@ -12,7 +12,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Fork)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Star)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/stargazers/)
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)
+
+[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/ai-discord/dotnet)
+[![Discussões do Azure AI Foundry no GitHub](https://img.shields.io/badge/Discussions-Azure%20AI%20Foundry-blueviolet?logo=github&style=for-the-badge)](https://aka.ms/ai-discussions/dotnet)
 
 ![Logo do curso IA Generativa para Iniciantes .NET](../../translated_images/main-logo.5ac974278bc20b3520e631aaa6bf8799f2d219c5aec555da85555725546f25f8.pt.jpg)
 
@@ -25,6 +27,27 @@ Este não é um curso típico de "aqui está a teoria, boa sorte". Este reposit�
 Não se esqueça de [dar uma estrela (🌟) neste repositório](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) para encontrá-lo mais facilmente depois.
 
 ➡️ Obtenha sua própria cópia [fazendo um fork deste repositório](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/fork) e encontre-o em seus próprios repositórios.
+
+## ✨ Novidades!
+
+Estamos constantemente melhorando este curso com as mais recentes ferramentas de IA, modelos e exemplos práticos:
+
+- **Novo: Demo de Geração de Vídeo Azure OpenAI Sora!**
+  - A Lição 3 agora apresenta uma demonstração prática mostrando como gerar vídeos a partir de prompts de texto usando o novo [modelo de geração de vídeo Sora](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation) no Azure OpenAI.
+  - O exemplo demonstra como:
+    - Enviar um trabalho de geração de vídeo com um prompt criativo.
+    - Fazer polling do status do trabalho e baixar automaticamente o arquivo de vídeo resultante.
+    - Salvar o vídeo gerado na sua área de trabalho para visualização fácil.
+  - Veja a documentação oficial: [Geração de vídeo Azure OpenAI Sora](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)
+  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais /src/VideoGeneration-AzureSora-01/Program.cs](../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
+
+- **Novo: Modelo de Geração de Imagens Azure OpenAI (`gpt-image-1`)**: A Lição 3 agora apresenta exemplos de código para usar o novo modelo de geração de imagens do Azure OpenAI, `gpt-image-1`. Aprenda como gerar imagens do .NET usando as mais recentes capacidades do Azure OpenAI.
+  - Veja a documentação oficial: [Como usar modelos de geração de imagens do Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1) e [guia de geração de imagens openai-dotnet](https://github.com/openai/openai-dotnet?tab=readme-ov-file#how-to-generate-images) para mais detalhes.
+  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais .. /src/ImageGeneration-01.csproj](../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj).
+
+- **Novo Cenário: Orquestração de Agentes Concorrentes no eShopLite**: O [repositório eShopLite](https://github.com/Azure-Samples/eShopLite/tree/main/scenarios/07-AgentsConcurrent) agora apresenta um cenário demonstrando orquestração de agentes concorrentes usando Semantic Kernel. Este cenário mostra como múltiplos agentes podem trabalhar em paralelo para analisar consultas de usuários e fornecer insights valiosos para análises futuras.
+
+[Veja todas as atualizações anteriores em nossa seção Novidades](./10-WhatsNew/readme.md)
 
 ## 🚀 Introdução
 
