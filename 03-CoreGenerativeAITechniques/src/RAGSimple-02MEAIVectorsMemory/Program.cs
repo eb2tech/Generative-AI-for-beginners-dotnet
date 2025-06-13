@@ -10,7 +10,7 @@ var movieData = MovieFactory<int>.GetMovieVectorList();
 
 // get embeddings generator and generate embeddings for movies
 IEmbeddingGenerator<string, Embedding<float>> generator =
-    new OllamaEmbeddingGenerator(new Uri("http://localhost:11434/"), "all-minilm");
+    new OllamaEmbeddingGenerator(new Uri("http://192.168.1.251:11434/"), "llama3.2");
 foreach (var movie in movieData)
 {
     movie.Vector = await generator.GenerateVectorAsync(movie.Description);

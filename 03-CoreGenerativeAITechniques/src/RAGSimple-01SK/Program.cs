@@ -22,14 +22,18 @@ var question = "What is Bruno's favourite super hero?";
 // intro
 Console.WriteLine($"Question: {question}");
 
-var modelId = "llama4";
+var modelId = "llama3.2";
+
+var client = new HttpClient();
+client.Timeout = TimeSpan.FromMinutes(5);
 
 // Create a chat completion service
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion(
     modelId: modelId,
-    endpoint: new Uri("http://192.168.1.25:11434"),
-    apiKey: "apikey");
+    endpoint: new Uri("http://localhost:11434"),
+    apiKey: null,
+    httpClient: client);
 builder.AddLocalTextEmbeddingGeneration();
 Kernel kernel = builder.Build();
 var chat = kernel.GetRequiredService<IChatCompletionService>();
