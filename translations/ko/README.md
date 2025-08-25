@@ -13,7 +13,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Star)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/stargazers/)
 
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/ai-discord/dotnet)
+[![Azure AI Community Discord](https://img.shields.io/discord/1113626258182504448?label=Azure%20AI%20Community%20Discord)](https://aka.ms/ai-discord/dotnet)
 [![Azure AI Foundry GitHub 토론](https://img.shields.io/badge/Discussions-Azure%20AI%20Foundry-blueviolet?logo=github&style=for-the-badge)](https://aka.ms/ai-discussions/dotnet)
 
 ![초보자를 위한 Generative AI .NET 로고](../../translated_images/main-logo.5ac974278bc20b3520e631aaa6bf8799f2d219c5aec555da85555725546f25f8.ko.jpg)
@@ -32,6 +32,11 @@
 
 우리는 최신 AI 도구, 모델 및 실용적인 샘플로 이 강좌를 지속적으로 개선하고 있습니다:
 
+- **새로운 기능: Foundry Local 데모!**
+  - 레슨 3에서는 [Foundry Local 모델](https://github.com/microsoft/Foundry-Local/tree/main)에 대한 실습 데모를 제공합니다.
+  - 공식 문서 보기: [Foundry Local 문서](https://learn.microsoft.com/azure/ai-foundry/foundry-local/)
+  - **전체 설명과 코드 샘플은 [03-CoreGenerativeAITechniques/06-LocalModelRunners.md](../../03-CoreGenerativeAITechniques/06-LocalModelRunners.md)에서 확인할 수 있습니다**
+
 - **새로운 기능: Azure OpenAI Sora 비디오 생성 데모!**
   - 레슨 3에서는 Azure OpenAI의 새로운 [Sora 비디오 생성 모델](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)을 사용하여 텍스트 프롬프트에서 비디오를 생성하는 방법을 보여주는 실습 데모를 제공합니다.
   - 이 샘플은 다음 방법을 보여줍니다:
@@ -39,11 +44,11 @@
     - 작업 상태를 폴링하고 결과 비디오 파일을 자동으로 다운로드하기.
     - 생성된 비디오를 데스크톱에 저장하여 쉽게 보기.
   - 공식 문서 보기: [Azure OpenAI Sora 비디오 생성](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)
-  - 샘플 찾기: [레슨 3: 핵심 생성 AI 기술 /src/VideoGeneration-AzureSora-01/Program.cs](../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
+  - 샘플 찾기: [레슨 3: 핵심 생성 AI 기술 /src/VideoGeneration-AzureSora-01/Program.cs](../../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
 
 - **새로운 기능: Azure OpenAI 이미지 생성 모델 (`gpt-image-1`)**: 레슨 3에서는 새로운 Azure OpenAI 이미지 생성 모델인 `gpt-image-1`을 사용하는 코드 샘플을 제공합니다. 최신 Azure OpenAI 기능을 사용하여 .NET에서 이미지를 생성하는 방법을 배워보세요.
   - 공식 문서 보기: [Azure OpenAI 이미지 생성 모델 사용 방법](https://learn.microsoft.com/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1) 및 [openai-dotnet 이미지 생성 가이드](https://github.com/openai/openai-dotnet?tab=readme-ov-file#how-to-generate-images)에서 자세한 내용을 확인하세요.
-  - 샘플 찾기: [레슨 3: 핵심 생성 AI 기술 .. /src/ImageGeneration-01.csproj](../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj).
+  - 샘플 찾기: [레슨 3: 핵심 생성 AI 기술 .. /src/ImageGeneration-01.csproj](../../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj).
 
 - **새로운 시나리오: eShopLite의 동시 에이전트 오케스트레이션**: [eShopLite 저장소](https://github.com/Azure-Samples/eShopLite/tree/main/scenarios/07-AgentsConcurrent)에서는 Semantic Kernel을 사용한 동시 에이전트 오케스트레이션을 보여주는 시나리오를 제공합니다. 이 시나리오는 여러 에이전트가 병렬로 작업하여 사용자 쿼리를 분석하고 향후 분석을 위한 귀중한 통찰력을 제공하는 방법을 보여줍니다.
 
@@ -80,14 +85,14 @@ Generative AI는 소프트웨어 개발의 패러다임을 변화시키고 있�
 
 | 언어                | 코드 | 번역된 README 링크                                      | 마지막 업데이트 |
 |---------------------|------|---------------------------------------------------------|----------------|
-| 중국어(간체)        | zh   | [중국어 번역](../zh/README.md)              | 2025-02-19    |
-| 중국어(번체)        | tw   | [중국어 번역](../tw/README.md)              | 2025-02-19    |
-| 프랑스어            | fr   | [프랑스어 번역](../fr/README.md)            | 2025-02-19    |
-| 일본어              | ja   | [일본어 번역](../ja/README.md)              | 2025-02-19    |
-| 한국어              | ko   | [한국어 번역](./README.md)              | 2025-02-19    |
-| 포르투갈어          | pt   | [포르투갈어 번역](../pt/README.md)          | 2025-02-19    |
-| 스페인어            | es   | [스페인어 번역](../es/README.md)            | 2025-02-19    |
-| 독일어              | de   | [독일어 번역](../de/README.md)              | 2025-02-19    |
+| 중국어(간체)        | zh   | [중국어 번역](../zh/README.md)              | 2025-06-11    |
+| 중국어(번체)        | tw   | [중국어 번역](../tw/README.md)              | 2025-06-11    |
+| 프랑스어            | fr   | [프랑스어 번역](../fr/README.md)            | 2025-06-11    |
+| 일본어              | ja   | [일본어 번역](../ja/README.md)              | 2025-06-11    |
+| 한국어              | ko   | [한국어 번역](./README.md)              | 2025-06-11    |
+| 포르투갈어          | pt   | [포르투갈어 번역](../pt/README.md)          | 2025-06-11    |
+| 스페인어            | es   | [스페인어 번역](../es/README.md)            | 2025-06-11    |
+| 독일어              | de   | [독일어 번역](../de/README.md)              | 2025-06-11    |
 
 ## 🛠️ 필요한 준비물
 
@@ -134,10 +139,10 @@ Generative AI는 소프트웨어 개발의 패러다임을 변화시키고 있�
 학습 여정을 돕기 위한 다양한 콘텐츠가 준비되어 있습니다. 아래 강의를 확인해 보세요:
 
 - [초보자를 위한 생성형 AI](https://aka.ms/genai-beginners)
-- [초보자를 위한 생성형 AI .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [JavaScript로 배우는 생성형 AI](https://github.com/microsoft/generative-ai-with-javascript)
+- [초보자를 위한 생성형 AI .NET](https://aka.ms/genainet)
+- [JavaScript로 배우는 생성형 AI](https://aka.ms/genai-js-course)
 - [초보자를 위한 AI](https://aka.ms/ai-beginners)
-- [초보자를 위한 AI 에이전트 - 강의](https://github.com/microsoft/ai-agents-for-beginners)
+- [초보자를 위한 AI 에이전트 - 강의](https://aka.ms/ai-agents-beginners)
 - [초보자를 위한 데이터 과학](https://aka.ms/datascience-beginners)
 - [초보자를 위한 머신러닝](https://aka.ms/ml-beginners)
 - [초보자를 위한 사이버 보안](https://github.com/microsoft/Security-101)
@@ -147,6 +152,7 @@ Generative AI는 소프트웨어 개발의 패러다임을 변화시키고 있�
 - [페어드 프로그래밍을 위한 GitHub Copilot 마스터하기](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [C#/.NET 개발자를 위한 GitHub Copilot 마스터하기](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [GitHub Copilot 모험을 선택하세요](https://github.com/microsoft/CopilotAdventures)
+- [Phi Cookbook: Microsoft Phi 모델을 활용한 실습 예제](https://aka.ms/phicookbook)
 
 [생성형 AI와 .NET 학습을 시작해봅시다!](02-SetupDevEnvironment/readme.md) 🚀
 

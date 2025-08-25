@@ -57,7 +57,7 @@ Pour des raisons de sécurité, ajoutons la clé API que vous venez de créer au
 1. Accédez à l'onglet **Paramètres** de votre dépôt forké, puis développez **Secrets et variables** dans le menu de gauche et sélectionnez **Codespaces**.  
 
     ![Ajouter un nouveau secret Codespace](../../../translated_images/codespaces-secret.0e168026d0078356489f51ca61b195603283511c73bb805b056619f994652f7c.fr.jpeg)  
-1. Nommez votre secret **AZURE_AI_KEY**.  
+1. Nommez votre secret **AZURE_AI_SECRET**.  
 1. Collez la clé API que vous avez copiée depuis le portail Azure AI Foundry dans le champ **Secret**.
 
 ## Créer un Codespace GitHub
@@ -156,7 +156,7 @@ Dans cette leçon, vous avez appris à configurer votre environnement de dévelo
 
 - [Documentation Azure AI Foundry](https://learn.microsoft.com/azure/ai-services/)  
 - [Travailler avec GitHub Codespaces](https://docs.github.com/fr/codespaces/getting-started)  
-- [Comment déployer des modèles dans Azure AI Foundry](https://learn.microsoft.com/azure/ai-services/deploy/)  
+- [Comment déployer des modèles dans Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/how-to/deploy-models-openai)  
 - [Package NuGet Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI)
 
 ## Prochaines étapes
