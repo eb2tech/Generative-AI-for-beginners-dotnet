@@ -13,7 +13,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Star)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/stargazers/)
 
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/ai-discord/dotnet)
+[![Azure AI Community Discord](https://img.shields.io/discord/1113626258182504448?label=Azure%20AI%20Community%20Discord)](https://aka.ms/ai-discord/dotnet)
 [![Discussões do Azure AI Foundry no GitHub](https://img.shields.io/badge/Discussions-Azure%20AI%20Foundry-blueviolet?logo=github&style=for-the-badge)](https://aka.ms/ai-discussions/dotnet)
 
 ![Logo do curso IA Generativa para Iniciantes .NET](../../translated_images/main-logo.5ac974278bc20b3520e631aaa6bf8799f2d219c5aec555da85555725546f25f8.pt.jpg)
@@ -35,7 +35,7 @@ Estamos constantemente melhorando este curso com as mais recentes ferramentas de
 - **Novo: Demos do Foundry Local!**
   - A Lição 3 agora apresenta demonstrações práticas para [modelos Foundry Local](https://github.com/microsoft/Foundry-Local/tree/main).
   - Veja a documentação oficial: [Documentação do Foundry Local](https://learn.microsoft.com/azure/ai-foundry/foundry-local/)
-  - **Explicação completa e exemplos de código estão disponíveis em [03-CoreGenerativeAITechniques/06-LocalModelRunners.md](../03-CoreGenerativeAITechniques/06-LocalModelRunners.md)**
+  - **Explicação completa e exemplos de código estão disponíveis em [03-CoreGenerativeAITechniques/06-LocalModelRunners.md](../../03-CoreGenerativeAITechniques/06-LocalModelRunners.md)**
 
 - **Novo: Demo de Geração de Vídeo Azure OpenAI Sora!**
   - A Lição 3 agora apresenta uma demonstração prática mostrando como gerar vídeos a partir de prompts de texto usando o novo [modelo de geração de vídeo Sora](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation) no Azure OpenAI.
@@ -44,11 +44,11 @@ Estamos constantemente melhorando este curso com as mais recentes ferramentas de
     - Fazer polling do status do trabalho e baixar automaticamente o arquivo de vídeo resultante.
     - Salvar o vídeo gerado na sua área de trabalho para visualização fácil.
   - Veja a documentação oficial: [Geração de vídeo Azure OpenAI Sora](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)
-  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais /src/VideoGeneration-AzureSora-01/Program.cs](../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
+  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais /src/VideoGeneration-AzureSora-01/Program.cs](../../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
 
 - **Novo: Modelo de Geração de Imagens Azure OpenAI (`gpt-image-1`)**: A Lição 3 agora apresenta exemplos de código para usar o novo modelo de geração de imagens do Azure OpenAI, `gpt-image-1`. Aprenda como gerar imagens do .NET usando as mais recentes capacidades do Azure OpenAI.
   - Veja a documentação oficial: [Como usar modelos de geração de imagens do Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1) e [guia de geração de imagens openai-dotnet](https://github.com/openai/openai-dotnet?tab=readme-ov-file#how-to-generate-images) para mais detalhes.
-  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais .. /src/ImageGeneration-01.csproj](../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj).
+  - Encontre o exemplo em [Lição 3: Técnicas de IA Generativa Fundamentais .. /src/ImageGeneration-01.csproj](../../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj).
 
 - **Novo Cenário: Orquestração de Agentes Concorrentes no eShopLite**: O [repositório eShopLite](https://github.com/Azure-Samples/eShopLite/tree/main/scenarios/07-AgentsConcurrent) agora apresenta um cenário demonstrando orquestração de agentes concorrentes usando Semantic Kernel. Este cenário mostra como múltiplos agentes podem trabalhar em paralelo para analisar consultas de usuários e fornecer insights valiosos para análises futuras.
 
@@ -85,14 +85,14 @@ Você aprenderá como implementar IA Generativa em projetos .NET, desde geraçã
 
 | Idioma               | Código | Link para o README Traduzido                          | Última Atualização |
 |----------------------|--------|-----------------------------------------------------|--------------------|
-| Chinês (Simplificado)| zh     | [Tradução em Chinês](../zh/README.md)    | 2025-02-19         |
-| Chinês (Tradicional) | tw     | [Tradução em Chinês](../tw/README.md)    | 2025-02-19         |
-| Francês              | fr     | [Tradução em Francês](../fr/README.md)   | 2025-02-19         |
-| Japonês              | ja     | [Tradução em Japonês](../ja/README.md)   | 2025-02-19         |
-| Coreano              | ko     | [Tradução em Coreano](../ko/README.md)   | 2025-02-19         |
-| Português            | pt     | [Tradução em Português](./README.md) | 2025-02-19         |
-| Espanhol             | es     | [Tradução em Espanhol](../es/README.md)  | 2025-02-19         |
-| Alemão               | de     | [Tradução em Alemão](../de/README.md)    | 2025-02-19         |
+| Chinês (Simplificado)| zh     | [Tradução em Chinês](../zh/README.md)    | 2025-06-11         |
+| Chinês (Tradicional) | tw     | [Tradução em Chinês](../tw/README.md)    | 2025-06-11         |
+| Francês              | fr     | [Tradução em Francês](../fr/README.md)   | 2025-06-11         |
+| Japonês              | ja     | [Tradução em Japonês](../ja/README.md)   | 2025-06-11         |
+| Coreano              | ko     | [Tradução em Coreano](../ko/README.md)   | 2025-06-11         |
+| Português            | pt     | [Tradução em Português](./README.md) | 2025-06-11         |
+| Espanhol             | es     | [Tradução em Espanhol](../es/README.md)  | 2025-06-11         |
+| Alemão               | de     | [Tradução em Alemão](../de/README.md)    | 2025-06-11         |
 
 ## 🛠️ O Que Você Precisa
 
@@ -139,10 +139,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](../.
 Temos muito mais conteúdo para ajudar na sua jornada de aprendizado. Confira:
 
 - [IA Generativa para Iniciantes](https://aka.ms/genai-beginners)
-- [IA Generativa para Iniciantes .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [IA Generativa com JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [IA Generativa para Iniciantes .NET](https://aka.ms/genainet)
+- [IA Generativa com JavaScript](https://aka.ms/genai-js-course)
 - [IA para Iniciantes](https://aka.ms/ai-beginners)
-- [Agentes de IA para Iniciantes - Um Curso](https://github.com/microsoft/ai-agents-for-beginners)
+- [Agentes de IA para Iniciantes - Um Curso](https://aka.ms/ai-agents-beginners)
 - [Ciência de Dados para Iniciantes](https://aka.ms/datascience-beginners)
 - [ML para Iniciantes](https://aka.ms/ml-beginners)
 - [Cibersegurança para Iniciantes](https://github.com/microsoft/Security-101) 
@@ -152,6 +152,7 @@ Temos muito mais conteúdo para ajudar na sua jornada de aprendizado. Confira:
 - [Dominando o GitHub Copilot para Programação em Dupla](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Dominando o GitHub Copilot para Desenvolvedores C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Escolha Sua Própria Aventura com o Copilot](https://github.com/microsoft/CopilotAdventures)
+- [Phi Cookbook: Exemplos Práticos com os Modelos Phi da Microsoft](https://aka.ms/phicookbook)
 
 [Vamos começar a aprender IA Generativa e .NET!](02-SetupDevEnvironment/readme.md) 🚀
 

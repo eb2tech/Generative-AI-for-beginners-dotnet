@@ -13,7 +13,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners-Dotnet.svg?style=social&label=Star)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/stargazers/)
 
 
-[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/ai-discord/dotnet)
+[![Azure AI Community Discord](https://img.shields.io/discord/1113626258182504448?label=Azure%20AI%20Community%20Discord)](https://aka.ms/ai-discord/dotnet)
 [![Azure AI Foundry GitHub Discussions](https://img.shields.io/badge/Discussions-Azure%20AI%20Foundry-blueviolet?logo=github&style=for-the-badge)](https://aka.ms/ai-discussions/dotnet)
 
 ![生成式 AI 初学者 .NET 标志](../../translated_images/main-logo.5ac974278bc20b3520e631aaa6bf8799f2d219c5aec555da85555725546f25f8.zh.jpg)
@@ -35,7 +35,7 @@
 - **新增：Foundry Local 演示！**
   - 第3课现在提供 [Foundry Local 模型](https://github.com/microsoft/Foundry-Local/tree/main) 的实践演示。
   - 查看官方文档：[Foundry Local 文档](https://learn.microsoft.com/azure/ai-foundry/foundry-local/)
-  - **完整说明和代码示例请参见 [03-CoreGenerativeAITechniques/06-LocalModelRunners.md](../03-CoreGenerativeAITechniques/06-LocalModelRunners.md)**
+  - **完整说明和代码示例请参见 [03-CoreGenerativeAITechniques/06-LocalModelRunners.md](../../03-CoreGenerativeAITechniques/06-LocalModelRunners.md)**
 
 - **新增：Azure OpenAI Sora 视频生成演示！**
   - 第3课现在提供实践演示，展示如何使用新的 [Sora 视频生成模型](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation) 在 Azure OpenAI 中从文本提示生成视频。
@@ -44,11 +44,11 @@
     - 轮询任务状态并自动下载生成的视频文件。
     - 将生成的视频保存到桌面以便轻松查看。
   - 查看官方文档：[Azure OpenAI Sora 视频生成](https://learn.microsoft.com/azure/ai-services/openai/concepts/video-generation)
-  - 在这里找到示例：[第3课：核心生成式 AI 技术 /src/VideoGeneration-AzureSora-01/Program.cs](../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
+  - 在这里找到示例：[第3课：核心生成式 AI 技术 /src/VideoGeneration-AzureSora-01/Program.cs](../../03-CoreGenerativeAITechniques/src/VideoGeneration-AzureSora-01/Program.cs)
 
 - **新增：Azure OpenAI 图像生成模型 (`gpt-image-1`)**：第3课现在提供使用新的 Azure OpenAI 图像生成模型 `gpt-image-1` 的代码示例。学习如何使用最新的 Azure OpenAI 功能从 .NET 生成图像。
   - 查看官方文档：[如何使用 Azure OpenAI 图像生成模型](https://learn.microsoft.com/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1) 和 [openai-dotnet 图像生成指南](https://github.com/openai/openai-dotnet?tab=readme-ov-file#how-to-generate-images) 了解更多详情。
-  - 在这里找到示例：[第3课：核心生成式 AI 技术 .. /src/ImageGeneration-01.csproj](../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj)。
+  - 在这里找到示例：[第3课：核心生成式 AI 技术 .. /src/ImageGeneration-01.csproj](../../03-CoreGenerativeAITechniques/src/ImageGeneration-01/ImageGeneration-01.csproj)。
 
 - **新场景：eShopLite 中的并发代理编排**：[eShopLite 仓库](https://github.com/Azure-Samples/eShopLite/tree/main/scenarios/07-AgentsConcurrent) 现在提供一个场景，演示如何使用 Semantic Kernel 进行并发代理编排。此场景展示了多个代理如何并行工作来分析用户查询并为未来分析提供有价值的见解。
 
@@ -85,14 +85,14 @@
 
 | 语言                | 代码 | 翻译版 README 链接                                | 最后更新日期 |
 |---------------------|------|--------------------------------------------------|--------------|
-| 简体中文            | zh   | [中文翻译](./README.md)          | 2025-02-19   |
-| 繁体中文            | tw   | [中文翻译](../tw/README.md)          | 2025-02-19   |
-| 法语                | fr   | [法语翻译](../fr/README.md)          | 2025-02-19   |
-| 日语                | ja   | [日语翻译](../ja/README.md)          | 2025-02-19   |
-| 韩语                | ko   | [韩语翻译](../ko/README.md)          | 2025-02-19   |
-| 葡萄牙语            | pt   | [葡萄牙语翻译](../pt/README.md)      | 2025-02-19   |
-| 西班牙语            | es   | [西班牙语翻译](../es/README.md)      | 2025-02-19   |
-| 德语                | de   | [德语翻译](../de/README.md)          | 2025-02-19   |
+| 简体中文            | zh   | [中文翻译](./README.md)          | 2025-06-11   |
+| 繁体中文            | tw   | [中文翻译](../tw/README.md)          | 2025-06-11   |
+| 法语                | fr   | [法语翻译](../fr/README.md)          | 2025-06-11   |
+| 日语                | ja   | [日语翻译](../ja/README.md)          | 2025-06-11   |
+| 韩语                | ko   | [韩语翻译](../ko/README.md)          | 2025-06-11   |
+| 葡萄牙语            | pt   | [葡萄牙语翻译](../pt/README.md)      | 2025-06-11   |
+| 西班牙语            | es   | [西班牙语翻译](../es/README.md)      | 2025-06-11   |
+| 德语                | de   | [德语翻译](../de/README.md)          | 2025-06-11   |
 
 ## 🛠️ 所需准备
 
@@ -139,10 +139,10 @@
 我们还有许多其他内容可以帮助你的学习之旅，查看以下资源：
 
 - [生成式 AI 初学者教程](https://aka.ms/genai-beginners)
-- [生成式 AI 初学者 .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [JavaScript 的生成式 AI](https://github.com/microsoft/generative-ai-with-javascript)
+- [生成式 AI 初学者 .NET](https://aka.ms/genainet)
+- [JavaScript 的生成式 AI](https://aka.ms/genai-js-course)
 - [AI 初学者教程](https://aka.ms/ai-beginners)
-- [AI 代理初学者课程](https://github.com/microsoft/ai-agents-for-beginners)
+- [AI 代理初学者课程](https://aka.ms/ai-agents-beginners)
 - [数据科学初学者教程](https://aka.ms/datascience-beginners)
 - [机器学习初学者教程](https://aka.ms/ml-beginners)
 - [网络安全初学者教程](https://github.com/microsoft/Security-101) 
@@ -152,8 +152,7 @@
 - [精通 GitHub Copilot 进行配对编程](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [C#/.NET 开发者的 GitHub Copilot 精通指南](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [选择你的 Copilot 探索之旅](https://github.com/microsoft/CopilotAdventures)
+- [Phi Cookbook: 微软 Phi 模型实践示例](https://aka.ms/phicookbook)
 
 [让我们开始学习生成式 AI 和 .NET 吧！](02-SetupDevEnvironment/readme.md) 🚀
-
-**免责声明**：  
 本文件使用基于机器的人工智能翻译服务进行翻译。虽然我们尽力确保准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原文所在的母语版本作为权威来源。对于关键信息，建议寻求专业人工翻译服务。因使用本翻译而导致的任何误解或误读，我们概不负责。
